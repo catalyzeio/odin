@@ -30,4 +30,15 @@ $ bundle install
 $ rake odin
 ```
 
-Your prototype will be viewable at `http://localhost:4567`
+Your prototype will be viewable at `http://localhost:2113`
+
+## Commands
+
+- `rake odin`
+	- Will give you a browser preview of your prototype located at `http://localhost:2113`
+- `rake odin_build`
+	- Will compile the prototype from source and place the static assets in the `build` directory
+- `rake odin_static`
+	- Will run a simple web server inside the `build directory`
+- `rake odin_style`
+	- Will run the appropriate `Sass` commands in the `/source/assets/css` directory

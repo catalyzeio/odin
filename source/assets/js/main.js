@@ -1,3 +1,3 @@
-$(document).ready(function(){
-	console.log("All Set!");
-});
+(function(){
+	var app = angular.module('odin', []);
+})();
