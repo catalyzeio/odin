@@ -1,0 +1,22 @@
+body{font-family: 'Avenir Next', 'Avenir', 'Helvetica Neue', Helvetica, sans-serif;}
+header{
+	margin: 30px;
+	background-color: #222;
+	color: #fff;
+	padding: 30px;
+	h1{
+		font-size: 20px;
+		font-weight: 100;
+	}
+}
+section.main{
+	@extend header;
+	background-color: #f4f4f4;
+	border: 1px solid #ddd;
+	color: #222;
+	h1{font-weight: 400;}
+}
+footer{
+	@extend section.main;
+	background-color: #fff;
+}
