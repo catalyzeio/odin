@@ -2,7 +2,7 @@
 
 ![Odin Cover](http://cdn2.dropmark.com/45280/c63746fd5cd903dd48e59f631dbff9c8fe856259/odin_cover_preview.png)
 
-_Oden_ is a boilerplate for creating high fidelity prototypes. It includes:
+_Odin_ is a boilerplate for creating high fidelity prototypes. It includes:
 
 - [Middleman](https://github.com/middleman/middleman)
 	- markdown
