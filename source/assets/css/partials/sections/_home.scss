@@ -1,22 +1,62 @@
 body{font-family: 'Avenir Next', 'Avenir', 'Helvetica Neue', Helvetica, sans-serif;}
 header{
-	margin: 30px;
 	background-color: #222;
 	color: #fff;
 	padding: 30px;
 	h1{
-		font-size: 20px;
-		font-weight: 100;
+		font-size: 14px;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 4px;
+		text-align: center;
+	}
+	img{
+		width: 100%;
+		max-width: 45px;
+		margin: auto;
+		display: block;
 	}
 }
 section.main{
-	@extend header;
-	background-color: #f4f4f4;
-	border: 1px solid #ddd;
-	color: #222;
-	h1{font-weight: 400;}
-}
-footer{
-	@extend section.main;
-	background-color: #fff;
+	max-width: 550px;
+	margin: 50px auto;
+	h2{
+		padding: 10px;
+		font-size: 14px;
+		color: #333;
+		font-weight: 700;
+	}
+	p{
+		padding: 10px;
+		font-size: 14px;
+		color: #777;
+		line-height: 2;
+		a{
+			color: #222;
+			&:hover{color: #777;}
+		}
+	}
+	table{
+		width: 100%;
+		border: 1px solid #ddd;
+		margin: 10px;
+		tr{
+			td,
+			th{
+				background-color: #f4f4f4;
+				text-align: left;
+				color: #333;
+				font-size: 14px;
+				font-weight: 400;
+				padding: 10px;
+				border: 1px solid #ddd;
+			}
+			td{
+				background-color: #fff;
+				&:hover{
+					background-color: #FFFBC3;
+				}
+			}
+		}
+	}
 }

@@ -1,0 +1,38 @@
+<%= Rouge::Themes::Monokai.render(:scope => '.highlight') %>
+@import url(http://fonts.googleapis.com/css?family=Cousine);
+
+.highlight .c, .highlight .cm, .highlight .c1, .highlight .cs {
+	color: #909090;
+	font-family: 'Cousine', 'Source Code Pro', monospace;
+	font-size: 12px;
+}
+p code{
+	background-color: #49483e;
+	color: #a6e22e;
+	font-family: 'Cousine', 'Source Code Pro', monospace;
+	font-size: 12px;
+	padding: 1px 7px 1px 7px;
+	display: inline-block;
+	border-radius: 5px;
+}
+pre{
+	font-size: 12px;
+	font-family: 'Cousine', 'Source Code Pro', monospace;
+	padding: 10px;
+	line-height: 1.2;
+	overflow: scroll;
+	border-radius: 5px;
+	width: 100%;
+	margin: 10px;
+}
+pre code.highlight{
+	font-size: 12px;
+	font-family: 'Cousine', 'Source Code Pro', monospace;
+	overflow-x: scroll;
+}
+pre.highlight.plaintext{
+	white-space: normal;
+	line-height: 2;
+	font-family: 'Cousine', 'Source Code Pro', monospace;
+	padding: 10px;
+}

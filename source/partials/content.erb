@@ -1,3 +1,18 @@
 <section class="main">
-	<h1>Home</h1>
+	<h2>What is Odin?</h2>
+	<p>Odin is a boilerplate for creating high fidelity mockups and prototypes with a focus on user interactions. Built atop <a href="#">Angular</a>, <a href="#">Middleman</a>, <a href="#">Sass</a>, and <a href="#">Rake</a>, Odin provides a nice base for creating interactive prototypes that are easy to translate into production ready code. Odin was built to help ease the transition between early stage ideas and living products.</p>
+	<h2>Angular Example...</h2>
+	<table ng-controller="UserCntlr as user">
+		<tr>
+			<th>First Name</th>
+			<th>Last Name</th>
+			<th>Phone Number</th>
+		</tr>
+		<tr ng-repeat="people in user.peoples">
+			<td>{{people.firstName}}</td>
+			<td>{{people.lastName}}</td>
+			<td>{{people.phoneNumber}}</td>
+		</tr>
+	</table>
+	<%= partial "partials/syntax" %>
 </section>
