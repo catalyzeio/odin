@@ -19,7 +19,7 @@ _Odin_ is a boilerplate for creating high fidelity prototypes. It includes:
 
 ## Prerequisites
 
-Since _Odin_ uses middleman there aren't many prerequisites aside from a stable [Ruby](http://ruby-lang.org) environment. If you do not have Sass but intend on using it you'll want to install Sass and watch the file from the command line. Alternatively you can use a task runner like Grunt to compile and watch your sass for you.
+Since _Odin_ uses middleman there aren't many prerequisites aside from a stable [Ruby](http://ruby-lang.org) environment. If you do not have Sass but intend on using it you'll want to install Sass and watch the file from the command line. Alternatively you can use a task runner like Grunt to compile and watch your sass for you
 
 ## Installation
 
